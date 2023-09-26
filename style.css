@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
+
+/* use the custom font like any other font */
+body {
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+nav {
+  background-color: black;
+}
+
+nav li {
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  /* text-align: center; */
+}
+.navlist {
+  max-width: 1100px;
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 40px;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 20px;
+}
+.info {
+  font-size: 1em;
+  text-align: center;
+  padding-top: 20px;
+}
+.info li {
+  display: inline-block;
+
+}
+.info li a {
+  color: #08c;
+  text-decoration: none;
+} 
+.info li a:hover {
+  text-decoration: underline;
+}
+#product-image {
+  background: url("./images/hero_iphone_13pro.jpg") center;
+  height: 600px;
+  margin-top: -200px;
+}
+
+.sub-hero {
+  padding: 15px;
+}
+#watch-image {
+  background-image: url("./images/watch_large.jpg");
+}
+#ipad-image {
+  background-image: url("./images/ipad_pro_large.jpg");
+}
+#accessories-image {
+  background-image: url("./images/accessories_large.jpg");
+}
+#macbook-image {
+  background-image: url("./images/macbook_large.jpg");
+}
+.col {
+  width: 20%;
+  display: inline-block;
+  padding-top: 20px;
+  vertical-align: top;
+  text-align: left;
+  line-height: 1.6em;
+}
+.col a{
+  text-decoration: none;
+  color: #999;
+}
+
+.sub-hero-images{
+  width: 25%;
+  display: inline-block;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  background-color: #f2f2f2;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 12px;
+  display: block;
+}
+footer li a:hover{
+  font-size: 12px;
+  width: 20%;
+  text-align: left;
+  text-decoration: underline;
+}
+#footer-nav {
+  font-size: bold;
+}
+#recall{
+  text-align: center;
+  padding-bottom: 15px;
+  margin: 10px;
+}
+#recall a {
+  color: #08c;
+  text-decoration: none;
+}
+#recall a:hover {
+  text-decoration: underline;
+}
+.footer-help {
+  color: #7a7878;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  /* display: inline-block; */
+}
+.footer-help a {
+  color: #08c;
+  text-decoration: none;
+}
+.footer-help p{
+  border-bottom: 1px solid #c3c0c0;
+  margin-bottom: 6px;
+  padding-bottom: 5px;
+}
+.footer-help a:hover {
+  text-decoration: underline;
+}
+#legal{
+  margin-right: 12px;
+  display: inline-block;
+}
+#legal-links {
+  text-decoration: none;
+  vertical-align: top;
+  display: inline-block;
+}
+#legal-links a {
+  color: #7a7878;
+  border-right: 1px solid #c3c0c0;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+#us-flag {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-image: url("./images/usa.png");
+  color: #7a7878;
+}
+#flag{
+  float: right;
+}
+#flag a{
+  color: #7a7878;
+}
+
+ 
+
